@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 
 var hoursOfOperation = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 var allStores = [];
@@ -60,7 +60,7 @@ function createTableHeaderRow() {
   var thEl = document.createElement('th');
   var tdEl = document.createElement('td');
 
-  tdEl.textContent = null;
+  tdEl.textContent = 'Store & Hours';
   theTable.appendChild(trEl);
   trEl.appendChild(tdEl);
 
