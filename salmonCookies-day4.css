@@ -1,0 +1,26 @@
+* {
+  color: white;
+  font-family: 'Lobster';
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+text-align: center;
+text-shadow: 2px 2px #FF0000;
+text-decoration: underline;
+}
+
+table {
+width: 100%;
+  color: white;
+  font-family: 'Lobster';
+  text-align: center;
+  background-color: salmon;
+  /*background-image: url("https://github.com/codefellows/seattle-201d23/blob/master/class-09-css_wireframe_part_1/lab/assets/salmon.png?raw=true");*/
+}
+
+img {
+  image-orientation: center;
+  z-index: -1;
+}
